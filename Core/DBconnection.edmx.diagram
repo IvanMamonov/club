@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="11833db8ea96486db14c28581170958f" Name="Diagram1">
+        <EntityTypeShape EntityType="ComputerClubModel.BronPc" Width="1.5" PointX="5.25" PointY="0.75" />
+        <EntityTypeShape EntityType="ComputerClubModel.Food" Width="1.5" PointX="3" PointY="7" />
+        <EntityTypeShape EntityType="ComputerClubModel.Pc" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="ComputerClubModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" />
+        <EntityTypeShape EntityType="ComputerClubModel.Type" Width="1.5" PointX="0.75" PointY="4" />
+        <EntityTypeShape EntityType="ComputerClubModel.Users" Width="1.5" PointX="3" PointY="3.75" />
+        <EntityTypeShape EntityType="ComputerClubModel.ZakazFood" Width="1.5" PointX="5.25" PointY="3.875" />
+        <AssociationConnector Association="ComputerClubModel.FK_BronPc_Pc" />
+        <AssociationConnector Association="ComputerClubModel.FK_BronPc_Users" />
+        <AssociationConnector Association="ComputerClubModel.FK_ZakazFood_Food" />
+        <AssociationConnector Association="ComputerClubModel.FK_Users_Type" />
+        <AssociationConnector Association="ComputerClubModel.FK_ZakazFood_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
