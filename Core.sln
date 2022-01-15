@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core.csproj", "{8A1E1D92-99A2-4529-B89D-9F8C8ECA59C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api.csproj", "{8A1E1D92-99A2-4529-B89D-9F8C8ECA59C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "..\ConsoleApp3\ConsoleApp3.csproj", "{BACAF077-A000-4DF9-B8F7-76AFFD5A813A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCore", "..\ApiCore\ApiCore.csproj", "{A559C482-9208-4DEC-8FD5-B7C324489594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompConsole", "..\CompConsole\CompConsole.csproj", "{5A4C74DB-0E72-4B83-801D-D2F6BDBDFF60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompConsole", "..\CompConsole\CompConsole.csproj", "{5A4C74DB-0E72-4B83-801D-D2F6BDBDFF60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
